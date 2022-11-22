@@ -1,0 +1,36 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.caesarCipher{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(234, 57, 47);
+    border-radius: 10px;
+}
+.encryption, .decryption{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(35, 123, 183);
+    border-radius: 10px;
+    /* padding: 0px 500px; */
+    margin: 30px 0px 30px 0px;
+}
+
+.plainText, .encryptedText{
+    font-size: 20px;   
+}
+button{
+        background: #20af59;
+        color: white;
+        border-style: outset;
+        border-color: #921e1e;
+        border-radius: 10px;
+        height: 50px;
+        width: 100px;
+        font: bold 15px arial,sans-serif;
+        text-shadow: none;
+}
