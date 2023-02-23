@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vigenereCipher.css">
+    <link rel="shortcut icon" href="#">
+    <script src="vigenereCipher.js"></script>
+    <title>VigenereCipher</title>
+</head>
+<body>
+    <div class="container">
+        <div class="VingenereCipher">Vigenere Cipher</div>
+        <div class="encryption">Encryption</div>
+        <div>
+        <div class="plainText">Plain Text</div>
+        <textarea id="plainInput" name="plainTextInput" rows="10" cols="60" placeholder="Enter your plain text here..."></textarea>
+        <div class="sec">Security Key (It should be a string)</div>
+        <div class="padd"><input type="text" class="securityKey" id="plainKeyId" placeholder="Enter the security key here..."></div>
+        <!-- <input type="text" id="plainInput"> -->
+        </div>
+        <button class="btn" type="button" onclick="Encryption();">Encrypt</button>
+
+        <!-- decryption  -->
+        <div class="decryption">Decryption</div>
+        <div>
+        <div class="encryptedText">Encrypted Text</div>
+        <textarea id="encryptedInput" name="encryptedTextInput" rows="10" cols="60" placeholder="Enter your encrypted text here..."></textarea>
+        <div class="sec">Security Key (It should be a string)</div>
+        <div class="padd"><input type="text" class="securityKey" id="encryptedKeyId" placeholder="Enter the security key here..."></div>
+        </div>
+        <button class="btn" type="button" onclick="Decryption();">Decrypt</button>
+    </div>
+</body>
+</html>
